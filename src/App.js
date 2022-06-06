@@ -5,6 +5,9 @@ function App() {
     <div className="App">
       {
         // Code here
+        <CartProvider>
+        <navbar/>
+        </CartProvider>
       }
     </div>
   );
